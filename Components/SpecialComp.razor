@@ -1,0 +1,21 @@
+﻿@using LTP.Static.Models
+<div class="col pb-2">
+	<div class="card">
+		<div class="card-body text-center">
+			<div style="width:100%">
+				<h2 class="mb-0">@SpecialItem.Name</h2>
+				@foreach (var desc in SpecialItem.Description)
+				{
+					<p class="mb-0">@desc</p>
+				}
+				<h2>@SpecialItem.Deal</h2>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+@code {
+	[Parameter]
+	public required Special SpecialItem { get; set; }
+}

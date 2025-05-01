@@ -1,0 +1,56 @@
+﻿@using LTP.Static.Models
+
+
+<div class="menu-catagory" id="@Category.Name.Replace(" ", "")">
+	<div style ="text-align:left;">
+		<span class="fs-3 fw-bold">@Category.Name</span>
+		<span style="float:right;">
+			<a href="#topnav">top</a>
+		</span>
+	</div>
+	<span><i>@Category.Subtitle</i></span>
+	@if(Category.Options.Count() > 0)
+	{
+		<p>
+			@if(Category.OptionName != "")
+			{
+				<b>@($"{Category.OptionName}:")</b>
+				<br />
+			}
+			@(string.Join(", ", Category.Options))
+		</p>
+	}
+	<table class="table">
+		<tr>
+			<th scope="col"></th>
+			@foreach (var size in Category.Sizes)
+			{
+				<th class="menu-item" scope="col">@size</th>
+			}
+		</tr>
+		@foreach (var item in Category.Items)
+		{
+			<tr>
+				<th class="menu-item" scope="row">@item.Name</th>
+				@foreach (var price in item.Price)
+				{
+					<td>@price.ToString("C")</td>
+				}
+				<td class="grow"></td> @* Push content to the left *@
+			</tr>
+			@if (item.Description != "")
+			{
+				<tr>
+					<td colspan="100">@item.Description</td>
+				</tr>
+			}
+		}
+		
+	</table>
+	<hr />
+</div>
+
+@code {
+	[Parameter]
+	public required MenuCatagory Category { get; set; }
+}
