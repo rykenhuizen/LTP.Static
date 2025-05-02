@@ -66,6 +66,10 @@ tbody, td, tfoot, th, thead, tr {
     border-style:none;
 }
 
+.phone {
+    text-decoration: none;
+}
+
 .col {
     padding-right: 0em;
     padding-left: 0em;

@@ -23,7 +23,9 @@
 			@* <h1 class="outline-font">@_info.Name</h1> *@
 			<h2 class="mb-0">@_info.Hours</h2>
 			<p class="mb-0">@_info.ExtraInfo[0]</p>
-			<h2 class="outline-font">@_info.Phone</h2>
+			<a href="tel:+@_info.Phone" class="phone">
+				<h2 class="outline-font">@_info.Phone</h2>
+			</a>
 			<h2 class="mb-0">@_info.Address[0]</h2>
 			<p>@_info.Address[1]</p>
 			<h3>@_info.ExtraInfo[1]</h3>
