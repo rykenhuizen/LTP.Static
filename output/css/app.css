@@ -77,6 +77,6 @@ tbody, td, tfoot, th, thead, tr {
 }
 
 tr {
-    display: flex;
+    
     align-items: center;
 }
