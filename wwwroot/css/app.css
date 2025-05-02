@@ -73,4 +73,10 @@ tbody, td, tfoot, th, thead, tr {
 .col {
     padding-right: 0em;
     padding-left: 0em;
+    
+}
+
+tr {
+    display: flex;
+    align-items: center;
 }
