@@ -11,6 +11,7 @@ builder.WebHost.UseStaticWebAssets();
 
 builder.Services.AddBlazorStaticService(opt =>
 {
+    opt.SiteUrl = "https://rykenhuizen.github.io/LTP.Static/";
     //var bla = opt.ContentToCopyToOutput;
     //opt. = "Content"; //where to copy the content
     //opt. //check to change the defaults
@@ -43,9 +44,6 @@ app.Run();
 
 public static class WebsiteKeys
 {
-    public const string GitHubRepo = "https://github.com/BlazorStatic/LTP.Static";
-    //public const string X = "https://x.com/";
-    //public const string Title = "BlazorStatic Minimal Blog";
-    //public const string BlogPostStorageAddress = $"{GitHubRepo}/tree/main/Content/Blog";
-    //public const string BlogLead = "Sample blog created with BlazorStatic and TailwindCSS";
+    public const string LinkAppend = "./LTP.Static/"; //fix for GitHub pages
+    //public const string LinkAppend = "";
 }
