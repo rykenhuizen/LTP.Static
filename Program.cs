@@ -44,6 +44,6 @@ app.Run();
 
 public static class WebsiteKeys
 {
-    public const string LinkAppend = "./LTP.Static/"; //fix for GitHub pages
+    public const string LinkAppend = "LTP.Static/"; //fix for GitHub pages
     //public const string LinkAppend = "";
 }
