@@ -58,8 +58,9 @@ code {
 }
 
 td{
-    padding-left:1em;
+    padding-left: 1em;
     padding-right: 1em;
+    vertical-align: middle;
 }
 
 tbody, td, tfoot, th, thead, tr {
@@ -74,8 +75,4 @@ tbody, td, tfoot, th, thead, tr {
     padding-right: 0em;
     padding-left: 0em;
     
-}
-
-td {
-    vertical-align: middle;
 }
