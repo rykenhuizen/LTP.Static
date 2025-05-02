@@ -35,7 +35,7 @@
 <nav class="nav justify-content-center" id="topnav">
 	@foreach (var category in _menu)
 	{
-		<a class="nav-link" href="#@(WebsiteKeys.LinkAppend + category.Name.Replace(" ",""))">@category.Name</a>
+		<a class="nav-link" href="@(WebsiteKeys.LinkAppend + "#" + category.Name.Replace(" ",""))">@category.Name</a>
 		<div class="vr"></div>
 	}
 	<a class="nav-link" href="@(WebsiteKeys.LinkAppend)#Specials">Specials</a>
