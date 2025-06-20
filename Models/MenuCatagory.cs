@@ -8,5 +8,6 @@
         public string[] Options { get; set; } = [];
         public string[] Sizes { get; set; } = [];
         public MenuItem[] Items { get; set; } = [];
+        public string[] Pictures { get; set; } = [];
     }
 }
