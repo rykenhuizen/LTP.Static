@@ -20,11 +20,9 @@
 				<a id="photosLink">
 					<img src="@(WebsiteKeys.LinkAppend)images/pictures.svg" alt="Photo Gallary" height="58" width="58" />
 				</a>
-				@* <button id="myBtn">Gallary</button> *@
 			</div>
 		</div>
 		<div class="col-12 col-sm-8 text-center" style="overflow-wrap: break-word;">
-			@* <h1 class="outline-font">@_info.Name</h1> *@
 			<h2 class="mb-0">@_info.Hours</h2>
 			<p class="mb-0">@_info.ExtraInfo[0]</p>
 			<a href="tel:@_info.Phone" class="phone">
@@ -53,13 +51,6 @@
 					imgId = categoryName + "x";
 				}
 			}
-			@* <a href="#Dessert" id="imgDessert"><img src="@(WebsiteKeys.LinkAppend)images/Dessert.jpg" class="rounded mb-4 img-fluid" /></a>
-			<a href="#Donairs"><img src="@(WebsiteKeys.LinkAppend)images/Donair.jpg" class="rounded mb-4 img-fluid" /></a>
-			<a href="#Donairs"><img src="@(WebsiteKeys.LinkAppend)images/DonairRolls.jpg" class="rounded mb-4 img-fluid" /></a>
-			<a href="#Icecream" id="imgIcecream"><img src="@(WebsiteKeys.LinkAppend)images/Icecream1.jpg" class="rounded mb-4 img-fluid" /></a>
-			<a href="#Icecream"><img src="@(WebsiteKeys.LinkAppend)images/Icecream2.jpg" class="rounded mb-4 img-fluid" /></a>
-			<a href="#Pizza"><img src="@(WebsiteKeys.LinkAppend)images/Pizza.jpg" class="rounded mb-4 img-fluid" /></a>
-			<a href="#Pizza"><img src="@(WebsiteKeys.LinkAppend)images/PizzaSlice.jpg" class="rounded mb-4 img-fluid" /></a> *@
 		</div>
 	</div>
 
@@ -93,7 +84,6 @@
 @code{
 	private GeneralInfo? _info;
 	private MenuCatagory[]? _menu;
-	//private Specials _specials;
 
 	protected override void OnInitialized()
 	{

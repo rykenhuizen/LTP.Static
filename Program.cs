@@ -12,12 +12,8 @@ builder.WebHost.UseStaticWebAssets();
 builder.Services.AddBlazorStaticService(opt =>
 {
     opt.SiteUrl = "https://rykenhuizen.github.io/LTP.Static/";
-    //var bla = opt.ContentToCopyToOutput;
-    //opt. = "Content"; //where to copy the content
-    //opt. //check to change the defaults
 }
 );
-////.AddBlazorStaticContentService<BlogFrontMatter>();
 
 builder.Services.AddRazorComponents();
 
