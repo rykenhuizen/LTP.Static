@@ -82,26 +82,19 @@
 </div>
 
 @code{
-	private GeneralInfo? _info;
-	private MenuCatagory[]? _menu;
-
-	protected override void OnInitialized()
-	{
-		_info = new GeneralInfo
-			{
-				Name = "Lawrencetown PIZZA",
-				Phone = "902-435-4011",
-				Address = ["3726 Lawrencetown Road", "(Just past the Community Center)"],
-				Hours = "Kitchen Open Daily at 11am",
-				ExtraInfo = ["Pick-up only",
+	private GeneralInfo _info = new GeneralInfo
+		{
+			Name = "Lawrencetown PIZZA",
+			Phone = "902-435-4011",
+			Address = ["3726 Lawrencetown Road", "(Just past the Community Center)"],
+			Hours = "Kitchen Open Daily at 11am",
+			ExtraInfo = ["Pick-up only",
 							"We Make Homemade Deserts Daily!",
-							"*Prices and Specials may change without notice"		
-				],
+							"*Prices and Specials may change without notice"
+					],
 
-			};
+		};
 
-		_menu = MenuData.GetMenu();
+	private MenuCatagory[] _menu = MenuData.GetMenu();
 
-
-	}	
 }
