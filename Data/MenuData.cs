@@ -1,5 +1,4 @@
 ﻿using LTP.Static.Models;
-using Microsoft.Extensions.Options;
 
 namespace LTP.Static.Data
 {
