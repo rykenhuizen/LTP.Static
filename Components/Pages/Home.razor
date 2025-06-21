@@ -9,16 +9,16 @@
 <div class="container pb-3">
 	<div class="row">
 		<div class="col-12 col-sm-4">
-			<img src="@(WebsiteKeys.LinkAppend)images/LTPLogo4.png" alt="Lawrencetown Pizza" class="img-fluid" />
+			<img src="images/LTPLogo4.png" alt="Lawrencetown Pizza" class="img-fluid" />
 			<div class="text-center">
 				<a href="https://www.instagram.com/lawrencetownpizza/">
-					<img src="@(WebsiteKeys.LinkAppend)images/instagram.svg" alt="Instagram Link" class="" height="42" width="48" />
+					<img src="images/instagram.svg" alt="Instagram Link" class="" height="42" width="48" />
 				</a>
 				<a href="https://www.facebook.com/lawrencetownpizza/">
-					<img src="@(WebsiteKeys.LinkAppend)images/facebook.svg" alt="Facebook Link" class="mx-3" height="37" width="37" />
+					<img src="images/facebook.svg" alt="Facebook Link" class="mx-3" height="37" width="37" />
 				</a>
 				<a id="photosLink">
-					<img src="@(WebsiteKeys.LinkAppend)images/pictures.svg" alt="Photo Gallary" height="58" width="58" />
+					<img src="images/pictures.svg" alt="Photo Gallary" height="58" width="58" />
 				</a>
 			</div>
 		</div>
@@ -47,7 +47,7 @@
 				string imgId = categoryName;
 				@foreach (var pic in category.Pictures)
 				{
-					<a href="#@(categoryName)" id="img@(imgId)"><img src="@(WebsiteKeys.LinkAppend)images/@(pic)" class="rounded mb-4 img-fluid" /></a>
+					<a href="#@(categoryName)" id="img@(imgId)"><img src="images/@(pic)" class="rounded mb-4 img-fluid" /></a>
 					imgId = categoryName + "x";
 				}
 			}
@@ -59,10 +59,10 @@
 <nav class="nav justify-content-center" id="topnav">
 	@foreach (var category in _menu)
 	{
-		<a class="nav-link" href="@(WebsiteKeys.LinkAppend + "#" + category.Name.Replace(" ",""))">@category.Name</a>
+		<a class="nav-link" href="#@(category.Name.Replace(" ",""))">@category.Name</a>
 		<div class="vr"></div>
 	}
-	<a class="nav-link" href="@(WebsiteKeys.LinkAppend)#Specials">Specials</a>
+	<a class="nav-link" href="#Specials">Specials</a>
 </nav>
 <hr />
 <div class="menu-catagories">

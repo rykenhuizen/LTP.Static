@@ -8,12 +8,12 @@
 			@if(Category.Pictures.Count() > 0)
 			{
 				<a class="menuImgLink" href="#img@($"{Category.Name.Replace(" ", "")}")">
-					<img src="@(WebsiteKeys.LinkAppend)images/pictures.svg" alt="Photo Gallary" height="52" width="52" />
+					<img src="images/pictures.svg" alt="Photo Gallary" height="52" width="52" />
 				</a>
 			}
 		</span>
 		<span style="float:right;">
-			<a href="@(WebsiteKeys.LinkAppend)#topnav">top</a>
+			<a href="#topnav">top</a>
 		</span>
 	</div>
 	<span><i>@Category.Subtitle</i></span>
