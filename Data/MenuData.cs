@@ -1,5 +1,4 @@
 ﻿using LTP.Static.Models;
-using Microsoft.Extensions.Options;
 
 namespace LTP.Static.Data
 {
@@ -11,19 +10,55 @@ namespace LTP.Static.Data
             [
                 GetPizza(),
                 GetGarlicFingers(),
+                GetDonair(),
                 GetPoutine(),
                 GetExtras(),
                 GetChicken(),
                 GetFish(),
                 GetSalads(),
-                GetDeserts(),
-                GetDonair(),
                 GetPanzerotti(),
                 GetWraps(),
                 GetSalads(),
                 GetNachos(),
+                GetIcecream(),
+                GetDeserts(),
             ];
         }
+
+        public static MenuCatagory GetIcecream()
+        {
+            var icecream = new MenuCatagory()
+            {
+                Name = "Icecream",
+                Sizes = ["", "Add Waffle"],
+                Pictures = ["Icecream1.jpg", "Icecream2.jpg"],
+                Items =
+                [
+                    new MenuItem
+                    {
+                        Name = "Kiddy",
+                        Price = [3.90, 1]
+                    },
+                    new MenuItem
+                    {
+                        Name = "Regular",
+                        Price = [4.95,1]
+                    },
+                    new MenuItem
+                    {
+                        Name = "Large",
+                        Price = [5.96,1]
+                    },
+                    new MenuItem
+                    {
+                        Name = "Milkshake",
+                        Price = [7.69]
+                    },
+                ]
+            };
+            return icecream;
+        }
+
         public static MenuCatagory GetNachos()
         {
             var nachos = new MenuCatagory()
@@ -117,6 +152,7 @@ namespace LTP.Static.Data
             {
                 Name = "Donairs",
                 Sizes = ["", "Add Cheese"],
+                Pictures = ["Donair.jpg", "DonairRolls.jpg"],
                 Items =
                 [
                     new MenuItem
@@ -195,14 +231,25 @@ namespace LTP.Static.Data
             var deserts = new MenuCatagory()
             {
                 Name = "Deserts",
-                Options = [ "Blueberry Cheesecake",
-                            "Chocolate Cheesecake",
-                            "Strawberry Cheesecake",
-                            "Lemon Cheesecake",
-                            "Cherry Cheesecake",
-                            "Carmel Cheesecake",
-                            "Double Fudge Brownies",
-                            "Date Squares"],
+                Pictures = ["Dessert.jpg"],
+                Items =
+                [
+                    new MenuItem
+                    {
+                        Name = "Cheesecake: Blueberry, Colcolate, Strawberry, Lemon, Cherry, Carmel",
+                        Price = [8.99]
+                    },
+                    new MenuItem
+                    {
+                        Name = "Double Fudge Brownies",
+                        Price = [7.99]
+                    },
+                    new MenuItem
+                    {
+                        Name = "Date Squares",
+                        Price = [7.99]
+                    },
+                ]
             };
             return deserts;
         }
@@ -390,6 +437,7 @@ namespace LTP.Static.Data
                             "Italian Sausage",
                             "Hot Peppers",
                             "Ham" ],
+                Pictures = [ "Pizza.jpg", "PizzaSlice.jpg",],
                 Sizes = ["Small 9\"", "Medium 12\"", "Large 16\"", "XLarge 18\""],
                 Items =
                 [

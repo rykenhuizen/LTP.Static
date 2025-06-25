@@ -3,7 +3,15 @@
 
 <div class="menu-catagory" id="@Category.Name.Replace(" ", "")">
 	<div style ="text-align:left;">
-		<span class="fs-3 fw-bold">@Category.Name</span>
+		<span class="fs-3 fw-bold">
+			@Category.Name 
+			@if(Category.Pictures.Count() > 0)
+			{
+				<a class="menuImgLink" href="#img@($"{Category.Name.Replace(" ", "")}")">
+					<img src="images/pictures.svg" alt="Photo Gallary" height="52" width="52" />
+				</a>
+			}
+		</span>
 		<span style="float:right;">
 			<a href="#topnav">top</a>
 		</span>
@@ -36,7 +44,6 @@
 				{
 					<td>@price.ToString("C")</td>
 				}
-				<td class="grow"></td> @* Push content to the left *@
 			</tr>
 			@if (item.Description != "")
 			{

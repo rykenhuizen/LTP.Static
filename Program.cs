@@ -1,9 +1,5 @@
 using BlazorStatic;
 using LTP.Static.Components;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,12 +7,9 @@ builder.WebHost.UseStaticWebAssets();
 
 builder.Services.AddBlazorStaticService(opt =>
 {
-    //var bla = opt.ContentToCopyToOutput;
-    //opt. = "Content"; //where to copy the content
-    //opt. //check to change the defaults
+    opt.SiteUrl = "https://rykenhuizen.github.io/LTP.Static/";
 }
 );
-////.AddBlazorStaticContentService<BlogFrontMatter>();
 
 builder.Services.AddRazorComponents();
 
@@ -41,11 +34,3 @@ app.UseBlazorStaticGenerator(shutdownApp: !app.Environment.IsDevelopment());
 
 app.Run();
 
-public static class WebsiteKeys
-{
-    public const string GitHubRepo = "https://github.com/BlazorStatic/LTP.Static";
-    //public const string X = "https://x.com/";
-    //public const string Title = "BlazorStatic Minimal Blog";
-    //public const string BlogPostStorageAddress = $"{GitHubRepo}/tree/main/Content/Blog";
-    //public const string BlogLead = "Sample blog created with BlazorStatic and TailwindCSS";
-}

@@ -22,9 +22,6 @@
     <Watch Include="Content/**/*" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="_content\Blog\media\" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="wwwroot\favicon.png" />
   </ItemGroup>
   <ItemGroup>
