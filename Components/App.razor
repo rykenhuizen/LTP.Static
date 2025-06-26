@@ -15,9 +15,10 @@
 <body>
     <script>  
         const url = new URL(window.location.href);
-        if(url.pathname == "/"){
+        if(url.pathname != "/"){
             console.log(url.pathname);
             window.location.replace("/");
+        }
     </script>
 <Routes/>
 	<script src="js/SiteJs.js"></script>
