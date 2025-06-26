@@ -2,6 +2,15 @@
 <html lang="en">
 
 <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7MN2CWPR92"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-7MN2CWPR92');
+    </script>
+
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     
@@ -13,14 +22,7 @@
 </head>
 
 <body>
-    <script>  
-        const url = new URL(window.location.href);
-        if(url.pathname != "/"){
-            console.log(url.pathname);
-            window.location.replace("/");
-        }
-    </script>
-<Routes/>
+    <Routes/>
 	<script src="js/SiteJs.js"></script>
 </body>
 
