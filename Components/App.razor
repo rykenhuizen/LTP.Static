@@ -13,14 +13,11 @@
 </head>
 
 <body>
-    <script> 
-        function move(){
-            const url = new URL(window.location.href);
-            if(url.pathname == "/"){
-                console.log(url.pathname);
-                window.location.replace("/");
-            } 
-        }
+    <script>  
+        const url = new URL(window.location.href);
+        if(url.pathname == "/"){
+            console.log(url.pathname);
+            window.location.replace("/");
     </script>
 <Routes/>
 	<script src="js/SiteJs.js"></script>
