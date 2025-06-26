@@ -8,7 +8,16 @@
 
     <title>Home</title></head>
 
-<body><div class="page" b-ujgplwuxn5><main b-ujgplwuxn5><article class="content px-2" b-ujgplwuxn5><div class="container-sm align-middle" style="max-width: 767.98px" b-ujgplwuxn5>
+<body><script> 
+        function move(){
+            const url = new URL(window.location.href);
+            if(url.pathname == "/"){
+                console.log(url.pathname);
+                window.location.replace("/");
+            } 
+        }
+    </script>
+<div class="page" b-ujgplwuxn5><main b-ujgplwuxn5><article class="content px-2" b-ujgplwuxn5><div class="container-sm align-middle" style="max-width: 767.98px" b-ujgplwuxn5>
 <div class="container pb-3"><div class="row"><div class="col-12 col-sm-4"><img src="images/LTPLogo4.png" alt="Lawrencetown Pizza" class="img-fluid">
 			<div class="text-center"><a href="https://www.instagram.com/lawrencetownpizza/"><img src="images/instagram.svg" alt="Instagram Link" class height="42" width="48"></a>
 				<a href="https://www.facebook.com/lawrencetownpizza/"><img src="images/facebook.svg" alt="Facebook Link" class="mx-3" height="37" width="37"></a>
