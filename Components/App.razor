@@ -22,6 +22,17 @@
 </head>
 
 <body>
+    <script>
+
+        const url = new URL(window.location.href);
+        if(url.pathname != "/"){
+            gtag('event', 'Location', {
+              'scanLocation': url.pathname,
+            });
+            console.log(url.pathname);
+            window.location.replace("/");
+        }
+    </script>
     <Routes/>
 	<script src="js/SiteJs.js"></script>
 </body>
