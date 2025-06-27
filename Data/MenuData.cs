@@ -21,7 +21,7 @@ namespace LTP.Static.Data
                 GetSalads(),
                 GetNachos(),
                 GetIcecream(),
-                GetDeserts(),
+                GetDesserts(),
             ];
         }
 
@@ -226,11 +226,11 @@ namespace LTP.Static.Data
             };
             return fish;
         }
-        public static MenuCatagory GetDeserts()
+        public static MenuCatagory GetDesserts()
         {
-            var deserts = new MenuCatagory()
+            var desserts = new MenuCatagory()
             {
-                Name = "Deserts",
+                Name = "Desserts",
                 Pictures = ["Dessert.jpg"],
                 Items =
                 [
@@ -251,7 +251,7 @@ namespace LTP.Static.Data
                     },
                 ]
             };
-            return deserts;
+            return desserts;
         }
 
         public static MenuCatagory GetChicken()

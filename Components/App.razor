@@ -23,13 +23,12 @@
 
 <body>
     <script>
-
+        //This code is for tracking. It forces the site to the root so no one bookmarks the tracking link
         const url = new URL(window.location.href);
         if(url.pathname != "/"){
             gtag('event', 'Location', {
               'scanLocation': url.pathname,
             });
-            console.log(url.pathname);
             window.location.replace("/");
         }
     </script>

@@ -18,13 +18,12 @@
     <title>Home</title></head>
 
 <body><script>
-
+        //This code is for tracking. It forces the site to the root so no one bookmarks the tracking link
         const url = new URL(window.location.href);
         if(url.pathname != "/"){
             gtag('event', 'Location', {
               'scanLocation': url.pathname,
             });
-            console.log(url.pathname);
             window.location.replace("/");
         }
     </script>
@@ -38,9 +37,9 @@
 			<a href="tel:902-435-4011" class="phone"><h2 class="outline-font">902-435-4011</h2></a>
 			<h2 class="mb-0">3726 Lawrencetown Road</h2>
 			<p>(Just past the Community Center)</p>
-			<h3>We Make Homemade Deserts Daily!</h3></div></div></div>
+			<h3>We Make Homemade Desserts Daily!</h3></div></div></div>
 
-<div id="gallary" class="modalGallary"><div class="modalGallary-content row"><div><a href="#Pizza" id="imgPizza"><img src="images/Pizza.jpg" class="rounded mb-4 img-fluid" /></a><a href="#Pizza" id="imgPizzax"><img src="images/PizzaSlice.jpg" class="rounded mb-4 img-fluid" /></a><a href="#Donairs" id="imgDonairs"><img src="images/Donair.jpg" class="rounded mb-4 img-fluid" /></a><a href="#Donairs" id="imgDonairsx"><img src="images/DonairRolls.jpg" class="rounded mb-4 img-fluid" /></a><a href="#Icecream" id="imgIcecream"><img src="images/Icecream1.jpg" class="rounded mb-4 img-fluid" /></a><a href="#Icecream" id="imgIcecreamx"><img src="images/Icecream2.jpg" class="rounded mb-4 img-fluid" /></a><a href="#Deserts" id="imgDeserts"><img src="images/Dessert.jpg" class="rounded mb-4 img-fluid" /></a></div></div></div>
+<div id="gallary" class="modalGallary"><div class="modalGallary-content row"><div><a href="#Pizza" id="imgPizza"><img src="images/Pizza.jpg" class="rounded mb-4 img-fluid" /></a><a href="#Pizza" id="imgPizzax"><img src="images/PizzaSlice.jpg" class="rounded mb-4 img-fluid" /></a><a href="#Donairs" id="imgDonairs"><img src="images/Donair.jpg" class="rounded mb-4 img-fluid" /></a><a href="#Donairs" id="imgDonairsx"><img src="images/DonairRolls.jpg" class="rounded mb-4 img-fluid" /></a><a href="#Icecream" id="imgIcecream"><img src="images/Icecream1.jpg" class="rounded mb-4 img-fluid" /></a><a href="#Icecream" id="imgIcecreamx"><img src="images/Icecream2.jpg" class="rounded mb-4 img-fluid" /></a><a href="#Desserts" id="imgDesserts"><img src="images/Dessert.jpg" class="rounded mb-4 img-fluid" /></a></div></div></div>
 
 <nav class="nav justify-content-center" id="topnav"><a class="nav-link" href="#Pizza">Pizza</a>
 		<div class="vr"></div><a class="nav-link" href="#GarlicFingers">Garlic Fingers</a>
@@ -55,7 +54,7 @@
 		<div class="vr"></div><a class="nav-link" href="#Salads">Salads</a>
 		<div class="vr"></div><a class="nav-link" href="#Nachos">Nachos</a>
 		<div class="vr"></div><a class="nav-link" href="#Icecream">Icecream</a>
-		<div class="vr"></div><a class="nav-link" href="#Deserts">Deserts</a>
+		<div class="vr"></div><a class="nav-link" href="#Desserts">Desserts</a>
 		<div class="vr"></div><a class="nav-link" href="#Specials">Specials</a></nav>
 <hr>
 <div class="menu-catagories"><p>*Prices and Specials may change without notice</p><div class="menu-catagory" id="Pizza"><div style="text-align:left;"><span class="fs-3 fw-bold">Pizza<a class="menuImgLink" href="#imgPizza"><img src="images/pictures.svg" alt="Photo Gallary" height="52" width="52"></a></span>
@@ -99,7 +98,7 @@
 	<hr></div><div class="menu-catagory" id="Icecream"><div style="text-align:left;"><span class="fs-3 fw-bold">Icecream<a class="menuImgLink" href="#imgIcecream"><img src="images/pictures.svg" alt="Photo Gallary" height="52" width="52"></a></span>
 		<span style="float:right;"><a href="#topnav">top</a></span></div>
 	<span><i></i></span><table class="table"><tr><th scope="col"></th><th class="menu-item" scope="col"></th><th class="menu-item" scope="col">Add Waffle</th></tr><tr><th class="menu-item" scope="row">Kiddy</th><td>$3.90</td><td>$1.00</td></tr><tr><th class="menu-item" scope="row">Regular</th><td>$4.95</td><td>$1.00</td></tr><tr><th class="menu-item" scope="row">Large</th><td>$5.96</td><td>$1.00</td></tr><tr><th class="menu-item" scope="row">Milkshake</th><td>$7.69</td></tr></table>
-	<hr></div><div class="menu-catagory" id="Deserts"><div style="text-align:left;"><span class="fs-3 fw-bold">Deserts<a class="menuImgLink" href="#imgDeserts"><img src="images/pictures.svg" alt="Photo Gallary" height="52" width="52"></a></span>
+	<hr></div><div class="menu-catagory" id="Desserts"><div style="text-align:left;"><span class="fs-3 fw-bold">Desserts<a class="menuImgLink" href="#imgDesserts"><img src="images/pictures.svg" alt="Photo Gallary" height="52" width="52"></a></span>
 		<span style="float:right;"><a href="#topnav">top</a></span></div>
 	<span><i></i></span><table class="table"><tr><th scope="col"></th></tr><tr><th class="menu-item" scope="row">Cheesecake: Blueberry, Colcolate, Strawberry, Lemon, Cherry, Carmel</th><td>$8.99</td></tr><tr><th class="menu-item" scope="row">Double Fudge Brownies</th><td>$7.99</td></tr><tr><th class="menu-item" scope="row">Date Squares</th><td>$7.99</td></tr></table>
 	<hr></div></div>
