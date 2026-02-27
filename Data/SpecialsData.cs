@@ -15,7 +15,7 @@ namespace LTP.Static.Data
                         "12\" Pizza (4 items)",
                         "12\" Garlic Fingers",
                     ],
-                    Deal = "29.99"
+                    Deal = "30.99"
                 },
                 new() {
                     Name = "Combo 2",
@@ -24,7 +24,7 @@ namespace LTP.Static.Data
                         "16\" Pizza (4 items)",
                         "12\" Garlic Fingers",
                     ],
-                    Deal = "32.99"
+                    Deal = "33.99"
                 },
                 new() {
                     Name = "Combo 3",
@@ -33,7 +33,7 @@ namespace LTP.Static.Data
                         "16\" Pizza (4 items)",
                         "16\" Garlic Fingers",
                     ],
-                    Deal = "36.99"
+                    Deal = "37.99"
                 },
                 new() {
                     Name = "Combo 4",
@@ -58,7 +58,7 @@ namespace LTP.Static.Data
                         "Any 16\" Pizza",
                         "10 Wings",
                     ],
-                    Deal = "36.99"
+                    Deal = "37.99"
                 },
                 new() {
                     Name = "Combo 7",
@@ -67,7 +67,7 @@ namespace LTP.Static.Data
                         "12\" Pizza (4 items)",
                         "2 Regular Donairs",
                     ],
-                    Deal = "34.99"
+                    Deal = "35.99"
                 },
                 new() {
                     Name = "Combo 8",
@@ -76,7 +76,7 @@ namespace LTP.Static.Data
                         "2x16\" Pizza (4 items)",
                         "12\" Garlic Fingers",
                     ],
-                    Deal = "54.99"
+                    Deal = "56.99"
                 },
 
                 new() {
@@ -86,7 +86,7 @@ namespace LTP.Static.Data
                         "12\" Pizza",
                         "6 donair Egg Rolls",
                     ],
-                    Deal = "29.99"
+                    Deal = "30.99"
                 },
                 new() {
                     Name = "Combo 10",
@@ -95,7 +95,7 @@ namespace LTP.Static.Data
                         "16\" Pizza",
                         "6 donair Egg Rolls",
                     ],
-                    Deal = "34.99"
+                    Deal = "35.99"
                 },
                  new() {
                     Name = "Combo 11",
@@ -105,7 +105,7 @@ namespace LTP.Static.Data
                         "2 Regular Poutines",
                         "and any 2 Deserts",
                     ],
-                    Deal = "32.99"
+                    Deal = "33.99"
                 },
                  new() {
                     Name = "Combo 12",
@@ -115,7 +115,7 @@ namespace LTP.Static.Data
                         "10 Wings",
                         "6 donair Egg Rolls",
                     ],
-                    Deal = "36.99"
+                    Deal = "37.99"
                 },
             ];
         }
