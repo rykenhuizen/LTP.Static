@@ -37,17 +37,17 @@ namespace LTP.Static.Data
                     new MenuItem
                     {
                         Name = "Kiddy",
-                        Price = [3.90, 1]
+                        Price = [4.50, 1.25]
                     },
                     new MenuItem
                     {
                         Name = "Regular",
-                        Price = [4.95,1]
+                        Price = [5.50,1.25]
                     },
                     new MenuItem
                     {
                         Name = "Large",
-                        Price = [5.96,1]
+                        Price = [5.96,1.25]
                     },
                     new MenuItem
                     {
@@ -98,7 +98,7 @@ namespace LTP.Static.Data
                 [
                     new MenuItem
                     {
-                        Price = [12.99]
+                        Price = [13.99]
                     },
                 ]
             };
@@ -116,7 +116,7 @@ namespace LTP.Static.Data
                 [
                     new MenuItem
                     {
-                        Price = [12.99]
+                        Price = [13.99]
                     },
                 ]
             };
@@ -139,7 +139,7 @@ namespace LTP.Static.Data
                 [
                     new MenuItem
                     {
-                        Price = [15.99]
+                        Price = [16.99]
                     },
                 ]
             };
@@ -158,22 +158,22 @@ namespace LTP.Static.Data
                     new MenuItem
                     {
                         Name = "Regular",
-                        Price = [10.99,2.5]
+                        Price = [12.49,2.5]
                     },
                     new MenuItem
                     {
                         Name = "Large",
-                        Price = [13.99,3.00]
+                        Price = [15.99,3.00]
                     },
                     new MenuItem
                     {
                         Name = "Extra Large",
-                        Price = [15.99,3.5]
+                        Price = [18.99,3.5]
                     },
                     new MenuItem
                     {
                         Name = "Donair Plate",
-                        Price = [15.99]
+                        Price = [16.99]
                     },
                     new MenuItem
                     {
@@ -209,19 +209,25 @@ namespace LTP.Static.Data
                 [
                     new MenuItem
                     {
+                        Name = "1 pc",
+                        Price = [12.99]
+                    },
+                    new MenuItem
+                    {
                         Name = "2 pc",
-                        Price = [14.99]
+                        Price = [15.99]
                     },
                     new MenuItem
                     {
                         Name = "3 pc",
-                        Price = [16.99]
+                        Price = [17.99]
                     },
                     new MenuItem
                     {
                         Name = "Family Pack (8pc and 2 large fries)",
-                        Price = [42.95]
+                        Price = [43.99]
                     },
+                    
                 ]
             };
             return fish;
@@ -266,17 +272,17 @@ namespace LTP.Static.Data
                     new MenuItem
                     {
                         Name = "2 pc meal",
-                        Price = [13.99]
-                    },
-                    new MenuItem
-                    {
-                        Name = "3 pc meal",
                         Price = [14.99]
                     },
                     new MenuItem
                     {
+                        Name = "3 pc meal",
+                        Price = [16.99]
+                    },
+                    new MenuItem
+                    {
                         Name = "Family Pack",
-                        Price = [42.95]
+                        Price = [49.99]
                     },
                     new MenuItem
                     {
@@ -286,27 +292,27 @@ namespace LTP.Static.Data
                     new MenuItem
                     {
                         Name = "Chicken Strips (6pc)",
-                        Price = [14.99]
+                        Price = [16.99]
                     },
                     new MenuItem
                     {
                         Name = "Wings (10 pc)",
-                        Price = [14.99]
+                        Price = [15.49]
                     },
                     new MenuItem
                     {
                         Name = "Wings (20 pc)",
-                        Price = [26.99]
+                        Price = [27.99]
                     },
                     new MenuItem
                     {
                         Name = "Wings (30 pc)",
-                        Price = [36.99]
+                        Price = [37.99]
                     },
                     new MenuItem
                     {
                         Name = "Wings (50 pc)",
-                        Price = [52.99]
+                        Price = [53.99]
                     },
                 ]
             };
@@ -338,7 +344,7 @@ namespace LTP.Static.Data
                     new MenuItem
                     {
                         Name = "Mozza Sticks (12pc)",
-                        Price = [12.99]
+                        Price = [13.99]
                     },
                 ]
             };
@@ -356,7 +362,7 @@ namespace LTP.Static.Data
                     new MenuItem
                     {
                         Name = "",
-                        Price = [12.99, 15.99, 19.99, 23.99]
+                        Price = [13.49, 16.99, 20.99, 24.99]
                     },
                     new MenuItem
                     {
@@ -379,12 +385,12 @@ namespace LTP.Static.Data
                     new MenuItem
                     {
                         Name = "Greek",
-                        Price = [12.99, 4.00]
+                        Price = [13.99, 4.00]
                     },
                     new MenuItem
                     {
                         Name = "Caesar",
-                        Price = [12.99, 4.00]
+                        Price = [13.99, 4.00]
                     },
                 ]
             };
@@ -408,7 +414,7 @@ namespace LTP.Static.Data
                 [
                    new MenuItem
                     {
-                        Price = [9.99, 12.99]
+                        Price = [10.99, 13.99]
                     },
                 ],
             };
@@ -444,109 +450,109 @@ namespace LTP.Static.Data
                     new MenuItem
                     {
                         Name = "Cheese",
-                        Price = [11.99, 16.99, 20.99, 26.99]
+                        Price = [12.49, 17.49, 21.99, 27.99]
                     },
                     new MenuItem
                     {
                         Name = "1 Item",
-                        Price = [12.99, 17.99, 21.99, 27.99]
+                        Price = [13.49, 18.59, 22.99, 28.99]
                     },
                     new MenuItem
                     {
                         Name = "2 Item",
-                        Price = [13.49, 18.99, 22.99, 28.99]
+                        Price = [13.99, 18.99, 23.99, 29.99]
                     },
                     new MenuItem
                     {
                         Name = "3 Item",
-                        Price = [13.99, 19.99, 23.99, 29.99]
+                        Price = [14.49, 19.99, 24.99, 30.99]
                     },
                     new MenuItem
                     {
                         Name = "4 Item",
-                        Price = [14.49, 20.99, 24.99, 30.99]
+                        Price = [14.99, 20.99, 25.99, 31.99]
                     },
                     new MenuItem
                     {
                         Name = "5 Item",
-                        Price = [14.99, 21.49, 25.99, 31.99]
+                        Price = [15.59, 21.99, 26.99, 32.99]
                     },
                     new MenuItem
                     {
                         Name = "Extra Cheese",
-                        Price = [2.00, 2.75, 3.75, 4.75]
+                        Price = [2.75, 3.00, 4.00, 5.00]
                     },
                     new MenuItem
                     {
                         Name = "Canadian Classic",
                         Description = "Canadian classic: pepperoni, mushrooms, bacon mozzarella",
-                        Price = [13.99, 19.99, 23.99, 29.99]
+                        Price = [14.49, 19.99, 24.99, 30.99]
                     },
                     new MenuItem
                     {
                         Name = "Brothers Peperoni",
                         Description = "Brothers pepperoni: mild cut up pepperoni made by brothers",
-                        Price = [13.49, 18.99, 22.99, 28.99]
+                        Price = [13.99, 18.99, 23.99, 29.99]
                     },
                     new MenuItem
                     {
                         Name = "Vegetarian",
                         Description = "Vegetarian: onions, mushrooms. green peppers, tomatoes, pineapple, green olives, mozzarella Greek",
-                        Price = [15.49, 21.99, 26.99, 32.99]
+                        Price = [15.99, 22.99, 27.99, 34.99]
                     },
                     new MenuItem
                     {
                         Name = "Works",
                         Description = "Works: pepperoni, salami, bacon, ground beef, mushrooms, green peppers, onions, mozzarella",
-                        Price = [15.49, 21.99, 26.99, 32.99]
+                        Price = [15.99, 22.99, 27.99, 34.99]
                     },
                     new MenuItem
                     {
                         Name = "Donair",
                         Description = "Donair: donair meat, onions, tomatoes, mozzarella",
-                        Price = [15.49, 21.99, 26.99, 32.99]
+                        Price = [15.99, 22.99, 27.99, 34.99]
                     },
                     new MenuItem
                     {
                         Name = "Greek",
                         Description = "Greek: black olives, red onions, tomatoes, oregano, olive oil, mozzarella, feta",
-                        Price = [15.49, 21.99, 26.99, 32.99]
+                        Price = [15.99, 22.99, 27.99, 34.99]
                     },
                     new MenuItem
                     {
                         Name = "Hawaiian",
                         Description = "Hawaiian: bacon, ham, pineapple, extra mozzarella",
-                        Price = [15.49, 21.99, 26.99, 32.99]
+                        Price = [15.99, 22.99, 27.99, 34.99]
                     },
                     new MenuItem
                     {
                         Name = "Meat Lovers",
                         Description = "Meat Lovers: pepperoni, salami, hamburger, bacon, Italian sausage, mozzarella",
-                        Price = [15.49, 21.99, 26.99, 32.99]
+                        Price = [15.99, 22.99, 27.99, 34.99]
                     },
                     new MenuItem
                     {
                         Name = "Cheese Lovers",
                         Description = "Cheese Lovers: mozzarella, feta, cheddar, parmesan",
-                        Price = [15.49, 21.99, 26.99, 32.99]
+                        Price = [15.99, 22.99, 27.99, 34.99]
                     },
                     new MenuItem
                     {
                         Name = "Classic BBO Chicken",
                         Description = "Classic BBO Chicken: chicken, BBO sauce, mozzarella",
-                        Price = [15.49, 21.99, 26.99, 32.99]
+                        Price = [16.99, 23.99, 28.99, 35.99]
                     },
                     new MenuItem
                     {
                         Name = "BBO Chicken with the Works",
                         Description = "BBO Chicken with the Works: chicken, BBQ sauce, onions, green peppers, tomatoes, mozzarella",
-                        Price = [15.49, 21.99, 26.99, 32.99]
+                        Price = [15.99, 22.99, 27.99, 34.99]
                     },
                     new MenuItem
                     {
                         Name = "Chicken Bruschetta",
                         Description = "Chicken Bruschetta: garlic spread, chicken, tomatoes, mozzarella, parsiey, olive oil",
-                        Price = [15.49, 21.99, 26.99, 32.99]
+                        Price = [15.99, 22.99, 27.99, 34.99]
                     },
 
                 ]
