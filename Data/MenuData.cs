@@ -36,23 +36,18 @@ namespace LTP.Static.Data
                 [
                     new MenuItem
                     {
-                        Name = "Kiddy",
+                        Name = "Single",
                         Price = [4.50, 1.25]
                     },
                     new MenuItem
                     {
-                        Name = "Regular",
+                        Name = "Double",
                         Price = [5.50,1.25]
                     },
                     new MenuItem
                     {
-                        Name = "Large",
-                        Price = [5.96,1.25]
-                    },
-                    new MenuItem
-                    {
                         Name = "Milkshake",
-                        Price = [7.69]
+                        Price = [7.99]
                     },
                 ]
             };
@@ -282,7 +277,7 @@ namespace LTP.Static.Data
                     new MenuItem
                     {
                         Name = "Family Pack",
-                        Price = [49.99]
+                        Price = [43.99]
                     },
                     new MenuItem
                     {
