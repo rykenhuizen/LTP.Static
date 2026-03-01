@@ -535,13 +535,13 @@ namespace LTP.Static.Data
                     {
                         Name = "Classic BBO Chicken",
                         Description = "Classic BBO Chicken: chicken, BBO sauce, mozzarella",
-                        Price = [16.99, 23.99, 28.99, 35.99]
+                        Price = [15.99, 22.99, 27.99, 34.99]
                     },
                     new MenuItem
                     {
                         Name = "BBO Chicken with the Works",
                         Description = "BBO Chicken with the Works: chicken, BBQ sauce, onions, green peppers, tomatoes, mozzarella",
-                        Price = [15.99, 22.99, 27.99, 34.99]
+                        Price = [16.99, 23.99, 28.99, 35.99]
                     },
                     new MenuItem
                     {
